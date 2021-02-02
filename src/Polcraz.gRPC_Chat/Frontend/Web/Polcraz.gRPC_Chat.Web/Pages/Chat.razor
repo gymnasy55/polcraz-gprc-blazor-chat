@@ -1,0 +1,21 @@
+﻿@page "/"
+@using Polcraz.gRPC_Chat.Protos
+
+@inject Greeter.GreeterClient GreeterClient
+
+<h2>@_message</h2>
+
+@code{
+    private string _message;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await GreeterClient.SayHelloAsync(new HelloRequest
+        {
+            Name = "polcraz"
+        });
+
+       _message = response.Message;
+    }
+
+}

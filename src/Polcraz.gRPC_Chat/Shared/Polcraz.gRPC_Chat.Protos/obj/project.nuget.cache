@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZsilDmH6elRfSlDcNmLIZpG1IWxfL+Y6lIUaHR7ldrd/gPHvLW/5+XOJUxCd6DMEfEtVAfGIT+VFraZyzhF6zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Shared\\Polcraz.gRPC_Chat.Protos\\Polcraz.gRPC_Chat.Protos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\polcr\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\grpc.core.api\\2.31.0\\grpc.core.api.2.31.0.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\grpc.net.client\\2.31.0\\grpc.net.client.2.31.0.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\grpc.net.common\\2.31.0\\grpc.net.common.2.31.0.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\grpc.tools\\2.31.0\\grpc.tools.2.31.0.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.31.0" />
+    <PackageReference Include="Grpc.AspNetCore.Web" Version="2.31.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Frontend\Web\Polcraz.gRPC_Chat.Web\Polcraz.gRPC_Chat.Web.csproj" />
+    <ProjectReference Include="..\..\Shared\Polcraz.gRPC_Chat.Protos\Polcraz.gRPC_Chat.Protos.csproj" />
+  </ItemGroup>
+
+</Project>

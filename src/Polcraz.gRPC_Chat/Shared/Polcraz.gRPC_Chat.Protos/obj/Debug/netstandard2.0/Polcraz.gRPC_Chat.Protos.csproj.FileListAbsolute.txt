@@ -1,0 +1,9 @@
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\bin\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.deps.json
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\bin\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.dll
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\bin\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.pdb
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\obj\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.csprojAssemblyReference.cache
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\obj\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.AssemblyInfoInputs.cache
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\obj\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.AssemblyInfo.cs
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\obj\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.csproj.CoreCompileInputs.cache
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\obj\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.dll
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Shared\Polcraz.gRPC_Chat.Protos\obj\Debug\netstandard2.0\Polcraz.gRPC_Chat.Protos.pdb
