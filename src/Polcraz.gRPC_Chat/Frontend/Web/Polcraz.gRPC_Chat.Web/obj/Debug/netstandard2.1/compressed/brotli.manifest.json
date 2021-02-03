@@ -1,14 +1,29 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fDQTmXdeoVVBPPalC8acYlPmb59U5ewYUY74YRbVaCU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\MOjWGS2tXX11nT3LnfOfpzddjBQbQzNFEYkFQHFZ03E=.hash",
       "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Polcraz.gRPC_Chat.Web.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Polcraz.gRPC_Chat.Web.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zPP_O0u8Q1F4jBquTAVTpvftH943tgiUR1_h7WfUW-U=.hash",
-      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Client.Web.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Client.Web.dll.br"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RbXHl8qz-FgY2O0dXSbkkf0CCKVWme1l1HmwZt6aVyM=.hash",
+      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Common.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Common.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\deEd6dzmN3-x8vXmjCMhffqm6na1_9v-8yP98gvz8zI=.hash",
+      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Core.Api.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Core.Api.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-cPXlNTX8GKF-lIn-2DIjtxTe0Wpy4ZDcyAj67b6JYk=.hash",
+      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Memory.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Memory.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash",
+      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\mscorlib.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-zcPVM75OAY_joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=.hash",
@@ -34,16 +49,6 @@
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ob5gN-szfb1CwWnyQWvWvuid3u4df593KvZeoJQEaKc=.hash",
       "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\WebAssembly.Net.WebSockets.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Net.WebSockets.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-cPXlNTX8GKF-lIn-2DIjtxTe0Wpy4ZDcyAj67b6JYk=.hash",
-      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Memory.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Memory.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash",
-      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\mscorlib.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6XMT1eT3svGdg6hFzAHJscYdTQjakoYccYTdHmKSr7Y=.hash",
@@ -121,6 +126,11 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zPP_O0u8Q1F4jBquTAVTpvftH943tgiUR1_h7WfUW-U=.hash",
+      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Client.Web.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Client.Web.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6KuDCcRJmsO8eA7o8UIUMmcgyc1Wp_2J0yOIJGN55jU=.hash",
       "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Client.dll.br"
@@ -166,16 +176,6 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RbXHl8qz-FgY2O0dXSbkkf0CCKVWme1l1HmwZt6aVyM=.hash",
-      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Common.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Common.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\deEd6dzmN3-x8vXmjCMhffqm6na1_9v-8yP98gvz8zI=.hash",
-      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Core.Api.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Core.Api.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
       "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
@@ -216,7 +216,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Buffers.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\YcNvcYXgUJ935snEVxAszYDqLqspZkU8-L3EdnBeywo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TbJ1C0jZ8ElhIAO3iC4zVk39xYPR4Z9yCXoLD6uFjBY=.hash",
       "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Polcraz.gRPC_Chat.Protos.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Polcraz.gRPC_Chat.Protos.dll.br"
     },
@@ -326,19 +326,9 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\GbtkcJWRdwZeylU9MX1cRExyFGRjAe1pCs7qWk3bulk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\w0OE_bDdhhOhEgrciTwVcwcEuG6kWGlbmMQLqIfYETs=.hash",
       "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Polcraz.gRPC_Chat.Web.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Polcraz.gRPC_Chat.Web.pdb.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KeKzZoLluA2zWZ5Ad-O-CytljGRk7mEdvGeDD3CV85o=.hash",
-      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Client.Web.pdb",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Client.Web.pdb.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yDnFdr5bVtW0DwiGnpbH-m0pLzhIKvwB8Ij1eo2L73Y=.hash",
-      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Client.pdb",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Client.pdb.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PnjJGHh4ibQu-uruKyDRGyqr9DRj5ZyDrQwIOg3D-rM=.hash",
@@ -351,7 +341,17 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Core.Api.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pe7WSwhZQKsYbpnS1a1mwhf2vMJ88xUaDxmXgMGvuLU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KeKzZoLluA2zWZ5Ad-O-CytljGRk7mEdvGeDD3CV85o=.hash",
+      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Client.Web.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Client.Web.pdb.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yDnFdr5bVtW0DwiGnpbH-m0pLzhIKvwB8Ij1eo2L73Y=.hash",
+      "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Grpc.Net.Client.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Grpc.Net.Client.pdb.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jV6TcZGbGSrzHGiFHxHYZAM1kDJFvvRsqj7b6BeBGag=.hash",
       "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Polcraz.gRPC_Chat.Protos.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Polcraz.gRPC_Chat.Protos.pdb.br"
     },
@@ -381,7 +381,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\hRUjmzQm2kEtAu9Nepx5Qw5sF09O8BdGhzqfSIu0S10=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7Y0dNP_GiwgM7bEJS0T5GhEpGgvQGcVQIU4lIGtiF_k=.hash",
       "Source": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Frontend\\Web\\Polcraz.gRPC_Chat.Web\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

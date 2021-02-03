@@ -25,6 +25,13 @@ namespace Polcraz.gRPC_Chat.Protos {
         __Marshaller_greet_HelloRequest,
         __Marshaller_greet_HelloReply);
 
+    static readonly grpc::Method<global::Polcraz.gRPC_Chat.Protos.HelloRequest, global::Polcraz.gRPC_Chat.Protos.HelloReply> __Method_JoinChat = new grpc::Method<global::Polcraz.gRPC_Chat.Protos.HelloRequest, global::Polcraz.gRPC_Chat.Protos.HelloReply>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "JoinChat",
+        __Marshaller_greet_HelloRequest,
+        __Marshaller_greet_HelloReply);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -42,6 +49,11 @@ namespace Polcraz.gRPC_Chat.Protos {
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       public virtual global::System.Threading.Tasks.Task<global::Polcraz.gRPC_Chat.Protos.HelloReply> SayHello(global::Polcraz.gRPC_Chat.Protos.HelloRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      public virtual global::System.Threading.Tasks.Task JoinChat(global::Polcraz.gRPC_Chat.Protos.HelloRequest request, grpc::IServerStreamWriter<global::Polcraz.gRPC_Chat.Protos.HelloReply> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -115,6 +127,14 @@ namespace Polcraz.gRPC_Chat.Protos {
       {
         return CallInvoker.AsyncUnaryCall(__Method_SayHello, null, options, request);
       }
+      public virtual grpc::AsyncServerStreamingCall<global::Polcraz.gRPC_Chat.Protos.HelloReply> JoinChat(global::Polcraz.gRPC_Chat.Protos.HelloRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return JoinChat(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncServerStreamingCall<global::Polcraz.gRPC_Chat.Protos.HelloReply> JoinChat(global::Polcraz.gRPC_Chat.Protos.HelloRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncServerStreamingCall(__Method_JoinChat, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override GreeterClient NewInstance(ClientBaseConfiguration configuration)
       {
@@ -127,7 +147,8 @@ namespace Polcraz.gRPC_Chat.Protos {
     public static grpc::ServerServiceDefinition BindService(GreeterBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_SayHello, serviceImpl.SayHello).Build();
+          .AddMethod(__Method_SayHello, serviceImpl.SayHello)
+          .AddMethod(__Method_JoinChat, serviceImpl.JoinChat).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -137,6 +158,7 @@ namespace Polcraz.gRPC_Chat.Protos {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, GreeterBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_SayHello, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Polcraz.gRPC_Chat.Protos.HelloRequest, global::Polcraz.gRPC_Chat.Protos.HelloReply>(serviceImpl.SayHello));
+      serviceBinder.AddMethod(__Method_JoinChat, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Polcraz.gRPC_Chat.Protos.HelloRequest, global::Polcraz.gRPC_Chat.Protos.HelloReply>(serviceImpl.JoinChat));
     }
 
   }

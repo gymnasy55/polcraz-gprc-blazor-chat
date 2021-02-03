@@ -1,12 +1,13 @@
 obj\Debug\netstandard2.1\blazor\unlinked\Polcraz.gRPC_Chat.Web.dll
-obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Client.Web.dll
+obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Common.dll
+obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Core.Api.dll
+obj\Debug\netstandard2.1\blazor\unlinked\System.Memory.dll
+obj\Debug\netstandard2.1\blazor\unlinked\mscorlib.dll
 obj\Debug\netstandard2.1\blazor\unlinked\netstandard.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Xml.Linq.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Core.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.dll
 obj\Debug\netstandard2.1\blazor\unlinked\WebAssembly.Net.WebSockets.dll
-obj\Debug\netstandard2.1\blazor\unlinked\System.Memory.dll
-obj\Debug\netstandard2.1\blazor\unlinked\mscorlib.dll
 obj\Debug\netstandard2.1\blazor\unlinked\WebAssembly.Bindings.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Numerics.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Xml.dll
@@ -22,6 +23,7 @@ obj\Debug\netstandard2.1\blazor\unlinked\System.IO.Compression.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Drawing.Common.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Data.DataSetExtensions.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Data.dll
+obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Client.Web.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Client.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Diagnostics.DiagnosticSource.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Runtime.Extensions.dll
@@ -31,8 +33,6 @@ obj\Debug\netstandard2.1\blazor\unlinked\System.Collections.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Reflection.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Diagnostics.Tracing.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Runtime.dll
-obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Common.dll
-obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Core.Api.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.Logging.Abstractions.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.AspNetCore.Components.Web.dll
@@ -64,9 +64,9 @@ obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.Options.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.JSInterop.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.JSInterop.WebAssembly.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Polcraz.gRPC_Chat.Web.pdb
-obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Client.Web.pdb
-obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Client.pdb
 obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Common.pdb
 obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Core.Api.pdb
+obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Client.Web.pdb
+obj\Debug\netstandard2.1\blazor\unlinked\Grpc.Net.Client.pdb
 obj\Debug\netstandard2.1\blazor\unlinked\Polcraz.gRPC_Chat.Protos.pdb
 obj\Debug\netstandard2.1\blazor\unlinked\Google.Protobuf.pdb

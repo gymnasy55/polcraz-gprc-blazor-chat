@@ -25,10 +25,11 @@ namespace Polcraz.gRPC_Chat.Protos {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CgtncmVldC5wcm90bxIFZ3JlZXQiHAoMSGVsbG9SZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAkiHQoKSGVsbG9SZXBseRIPCgdtZXNzYWdlGAEgASgJMj0KB0dyZWV0",
+            "ASABKAkiHQoKSGVsbG9SZXBseRIPCgdtZXNzYWdlGAEgASgJMnMKB0dyZWV0",
             "ZXISMgoIU2F5SGVsbG8SEy5ncmVldC5IZWxsb1JlcXVlc3QaES5ncmVldC5I",
-            "ZWxsb1JlcGx5QhuqAhhQb2xjcmF6LmdSUENfQ2hhdC5Qcm90b3NiBnByb3Rv",
-            "Mw=="));
+            "ZWxsb1JlcGx5EjQKCEpvaW5DaGF0EhMuZ3JlZXQuSGVsbG9SZXF1ZXN0GhEu",
+            "Z3JlZXQuSGVsbG9SZXBseTABQhuqAhhQb2xjcmF6LmdSUENfQ2hhdC5Qcm90",
+            "b3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

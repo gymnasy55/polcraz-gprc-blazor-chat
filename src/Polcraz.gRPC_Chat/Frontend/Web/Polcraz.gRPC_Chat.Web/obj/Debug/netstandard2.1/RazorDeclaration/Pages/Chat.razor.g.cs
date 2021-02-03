@@ -77,6 +77,13 @@ using Polcraz.gRPC_Chat.Web.Shared;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
+using Grpc.Core;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
 using Polcraz.gRPC_Chat.Protos;
 
 #line default
@@ -91,18 +98,20 @@ using Polcraz.gRPC_Chat.Protos;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 8 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
-      
-    private string _message;
+#line 15 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
+ 
+    private List<string> _messages = new List<string>();
 
     protected override async Task OnInitializedAsync()
     {
-        var response = await GreeterClient.SayHelloAsync(new HelloRequest
-        {
-            Name = "polcraz"
-        });
+        using var serverStream = GreeterClient.JoinChat(new HelloRequest());
+        var stream = serverStream.ResponseStream;
 
-       _message = response.Message;
+        await foreach (var message in stream.ReadAllAsync())
+        {
+            _messages.Add(message.Message);
+            this.StateHasChanged();
+        }
     }
 
 

@@ -15,19 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{C154AC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5978AB3C-A7C6-4DBD-8C05-A18E479969C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polcraz.gRPC_Chat.Backend", "Backend\Polcraz.gRPC_Chat.Backend\Polcraz.gRPC_Chat.Backend.csproj", "{DEF50D3E-A573-4012-A249-38093856E7CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polcraz.gRPC_Chat.Backend", "Backend\Polcraz.gRPC_Chat.Backend\Polcraz.gRPC_Chat.Backend.csproj", "{DEF50D3E-A573-4012-A249-38093856E7CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polcraz.gRPC_Chat.Protos", "Shared\Polcraz.gRPC_Chat.Protos\Polcraz.gRPC_Chat.Protos.csproj", "{EB3DCC1D-0858-4C8C-BA66-41E9E34D65E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polcraz.gRPC_Chat.Protos", "Shared\Polcraz.gRPC_Chat.Protos\Polcraz.gRPC_Chat.Protos.csproj", "{EB3DCC1D-0858-4C8C-BA66-41E9E34D65E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polcraz.gRPC_Chat.Desktop", "Frontend\Desktop\Polcraz.gRPC_Chat.Desktop\Polcraz.gRPC_Chat.Desktop.csproj", "{26D32CE8-6BAE-4570-B24C-BFB31C60DEE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polcraz.gRPC_Chat.Desktop", "Frontend\Desktop\Polcraz.gRPC_Chat.Desktop\Polcraz.gRPC_Chat.Desktop.csproj", "{26D32CE8-6BAE-4570-B24C-BFB31C60DEE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polcraz.gRPC_Chat.Mobile.Android", "Frontend\Mobile\Polcraz.gRPC_Chat.Mobile\Polcraz.gRPC_Chat.Mobile.Android\Polcraz.gRPC_Chat.Mobile.Android.csproj", "{D0FB7C9E-10CB-4617-A5C8-42F4C6DA956C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polcraz.gRPC_Chat.Mobile.iOS", "Frontend\Mobile\Polcraz.gRPC_Chat.Mobile\Polcraz.gRPC_Chat.Mobile.iOS\Polcraz.gRPC_Chat.Mobile.iOS.csproj", "{EB46F9E1-6665-4ADE-ACEA-BE1282636687}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polcraz.gRPC_Chat.Mobile", "Frontend\Mobile\Polcraz.gRPC_Chat.Mobile\Polcraz.gRPC_Chat.Mobile\Polcraz.gRPC_Chat.Mobile.csproj", "{538A7B98-0644-4EB0-A455-2BE0DDBFC0CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polcraz.gRPC_Chat.Mobile", "Frontend\Mobile\Polcraz.gRPC_Chat.Mobile\Polcraz.gRPC_Chat.Mobile\Polcraz.gRPC_Chat.Mobile.csproj", "{538A7B98-0644-4EB0-A455-2BE0DDBFC0CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polcraz.gRPC_Chat.Web", "Frontend\Web\Polcraz.gRPC_Chat.Web\Polcraz.gRPC_Chat.Web.csproj", "{BAA80AF6-F663-4E3D-8220-595FEEDC0ED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polcraz.gRPC_Chat.Web", "Frontend\Web\Polcraz.gRPC_Chat.Web\Polcraz.gRPC_Chat.Web.csproj", "{BAA80AF6-F663-4E3D-8220-595FEEDC0ED2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
