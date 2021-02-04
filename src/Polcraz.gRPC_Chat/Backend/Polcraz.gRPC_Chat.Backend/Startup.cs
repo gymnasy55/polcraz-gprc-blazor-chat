@@ -7,6 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Polcraz.gRPC_Chat.Database;
 
 namespace Polcraz.gRPC_Chat.Backend
 {
@@ -17,10 +19,15 @@ namespace Polcraz.gRPC_Chat.Backend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddGrpc();
+
+            services.AddDbContext<ChatDbContext>(options => options
+                .UseSqlite("Data Source=chat.db"), ServiceLifetime.Singleton);
+
+            services.AddSingleton<ChatRoomManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline. <=3
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -40,9 +47,12 @@ namespace Polcraz.gRPC_Chat.Backend
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGrpcService<GreeterService>().EnableGrpcWeb();
+                endpoints.MapGrpcService<ChatRoomService>().EnableGrpcWeb();
 
                 endpoints.MapFallbackToFile("index.html");
             });
+
+            serviceProvider.GetService<ChatDbContext>().Database.EnsureCreated();
         }
     }
 }

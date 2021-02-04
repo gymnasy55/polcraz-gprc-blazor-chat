@@ -1,0 +1,9 @@
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\bin\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.deps.json
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\bin\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.dll
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\bin\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.pdb
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\obj\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.csprojAssemblyReference.cache
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\obj\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.AssemblyInfoInputs.cache
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\obj\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.AssemblyInfo.cs
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\obj\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.csproj.CoreCompileInputs.cache
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\obj\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.dll
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Database\obj\Debug\netcoreapp3.1\Polcraz.gRPC_Chat.Database.pdb

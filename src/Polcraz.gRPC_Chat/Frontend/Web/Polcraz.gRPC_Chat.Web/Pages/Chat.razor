@@ -3,17 +3,17 @@
 @using Grpc.Core
 @using Polcraz.gRPC_Chat.Protos
 
-@inject Greeter.GreeterClient GreeterClient
+@inject ChatRoom.ChatRoomClient ChatRoomClient
 @inject NavigationManager NavigationManager
 
-<div style="height: 80vh; width: 50vw;background-color: #e0e0e0">
+<div style="height: 80vh; width: 50vw">
     <div style="display: grid; grid-auto-rows: 1fr auto; height: 100%">
         <div style="max-height: 100%; grid-row: 1; overflow-y: auto; align-self: end">
             <ChatMessagesView Messages="@_messages" />
         </div>
         <div style="grid-row: 2">
-            <RadzenTextArea Placeholder="Enter here..." Style="width: 100%" />
-            <RadzenButton Style="width: 100%">Отправить</RadzenButton>
+            <RadzenTextArea @bind-Value="_message" Placeholder="Enter here..." Style="width: 100%" />
+            <RadzenButton Click="SendMessageAsync" Style="width: 100%">Отправить</RadzenButton>
         </div>
 
     </div>
@@ -22,7 +22,8 @@
 @code
 {
     private readonly List<string> _messages = new List<string>();
-    private AsyncServerStreamingCall<HelloReply> _serverStream;
+
+    private string _message;
 
     private readonly CancellationTokenSource _cancelTokenSource = new CancellationTokenSource();
 
@@ -30,13 +31,24 @@
     {
         NavigationManager.LocationChanged += NavigationManagerOnLocationChanged;
 
-        _serverStream = GreeterClient.JoinChat(new HelloRequest(), cancellationToken: _cancelTokenSource.Token);
-        var stream = _serverStream.ResponseStream;
+        var serverStream = ChatRoomClient.JoinChat(new ChatRequest(), cancellationToken: _cancelTokenSource.Token);
+        var stream = serverStream.ResponseStream;
 
-        await foreach (var message in stream.ReadAllAsync())
+        try
         {
-            _messages.Add(message.Message);
-            this.StateHasChanged();
+            await foreach (var message in stream.ReadAllAsync())
+            {
+                _messages.Add(message.Message);
+                this.StateHasChanged();
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally
+        {
+            serverStream.Dispose();
         }
     }
 
@@ -48,6 +60,19 @@
     public void Dispose()
     {
         _cancelTokenSource.Cancel();
+    }
+
+    private async Task SendMessageAsync()
+    {
+        if (string.IsNullOrEmpty(_message))
+            return;
+
+        await ChatRoomClient.SendAsync(new ChatMessage
+        {
+            Message = _message
+        });
+
+        _message = string.Empty;
     }
 
 }

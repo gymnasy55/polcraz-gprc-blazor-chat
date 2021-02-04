@@ -129,7 +129,8 @@ using Polcraz.gRPC_Chat.Protos;
 #line 23 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
  
     private readonly List<string> _messages = new List<string>();
-    private AsyncServerStreamingCall<HelloReply> _serverStream;
+
+    private string _message;
 
     private readonly CancellationTokenSource _cancelTokenSource = new CancellationTokenSource();
 
@@ -137,13 +138,24 @@ using Polcraz.gRPC_Chat.Protos;
     {
         NavigationManager.LocationChanged += NavigationManagerOnLocationChanged;
 
-        _serverStream = GreeterClient.JoinChat(new HelloRequest(), cancellationToken: _cancelTokenSource.Token);
-        var stream = _serverStream.ResponseStream;
+        var serverStream = ChatRoomClient.JoinChat(new ChatRequest(), cancellationToken: _cancelTokenSource.Token);
+        var stream = serverStream.ResponseStream;
 
-        await foreach (var message in stream.ReadAllAsync())
+        try
         {
-            _messages.Add(message.Message);
-            this.StateHasChanged();
+            await foreach (var message in stream.ReadAllAsync())
+            {
+                _messages.Add(message.Message);
+                this.StateHasChanged();
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally
+        {
+            serverStream.Dispose();
         }
     }
 
@@ -157,12 +169,25 @@ using Polcraz.gRPC_Chat.Protos;
         _cancelTokenSource.Cancel();
     }
 
+    private async Task SendMessageAsync()
+    {
+        if (string.IsNullOrEmpty(_message))
+            return;
+
+        await ChatRoomClient.SendAsync(new ChatMessage
+        {
+            Message = _message
+        });
+
+        _message = string.Empty;
+    }
+
 
 #line default
 #line hidden
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private Greeter.GreeterClient GreeterClient { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ChatRoom.ChatRoomClient ChatRoomClient { get; set; }
     }
 }
 #pragma warning restore 1591
