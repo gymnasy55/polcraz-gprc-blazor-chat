@@ -211,3 +211,5 @@ C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polc
 C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
 C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Backend\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Web.dll
 C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Backend\bin\Debug\netcoreapp3.1\Grpc.Net.Client.Web.dll
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Backend\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
+C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Backend\Polcraz.gRPC_Chat.Backend\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll

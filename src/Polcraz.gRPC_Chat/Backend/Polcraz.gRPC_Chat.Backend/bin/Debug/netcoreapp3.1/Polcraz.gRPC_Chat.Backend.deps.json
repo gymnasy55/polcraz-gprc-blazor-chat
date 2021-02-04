@@ -101,7 +101,7 @@
           "Microsoft.AspNetCore.StaticFiles": "3.1.0.0",
           "Microsoft.AspNetCore.WebSockets": "3.1.0.0",
           "Microsoft.AspNetCore.WebUtilities": "3.1.0.0",
-          "Microsoft.CSharp": "4.0.0.0",
+          "Microsoft.CSharp.Reference": "4.0.0.0",
           "Microsoft.Extensions.Caching.Abstractions": "3.1.0.0",
           "Microsoft.Extensions.Caching.Memory": "3.1.0.0",
           "Microsoft.Extensions.Configuration.CommandLine": "3.1.0.0",
@@ -540,6 +540,7 @@
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Extensions.Configuration/3.1.6": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.6"
@@ -763,7 +764,35 @@
           "lib/netstandard2.1/Microsoft.JSInterop.WebAssembly.dll": {}
         }
       },
+      "Radzen.Blazor/3.0.6": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Linq.Dynamic.Core": "1.2.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Radzen.Blazor.dll": {
+            "assemblyVersion": "3.0.6.0",
+            "fileVersion": "3.0.6.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Radzen.Blazor.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/4.5.1": {},
+      "System.Linq.Dynamic.Core/1.2.2": {
+        "runtime": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {},
       "System.Net.Http.Json/3.2.0": {
         "dependencies": {
@@ -808,6 +837,7 @@
           "Grpc.Net.Client.Web": "2.31.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "3.2.1",
           "Polcraz.gRPC_Chat.Protos": "1.0.0",
+          "Radzen.Blazor": "3.0.6",
           "System.Net.Http.Json": "3.2.0"
         },
         "runtime": {
@@ -1249,7 +1279,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.CSharp/4.0.0.0": {
+      "Microsoft.CSharp.Reference/4.0.0.0": {
         "compile": {
           "Microsoft.CSharp.dll": {}
         },
@@ -2531,6 +2561,13 @@
       "path": "microsoft.aspnetcore.metadata/3.1.6",
       "hashPath": "microsoft.aspnetcore.metadata.3.1.6.nupkg.sha512"
     },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Configuration/3.1.6": {
       "type": "package",
       "serviceable": true,
@@ -2650,12 +2687,26 @@
       "path": "microsoft.jsinterop.webassembly/3.2.1",
       "hashPath": "microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512"
     },
+    "Radzen.Blazor/3.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3fFXHeBoec1qVVklWalUWXqLCWB908G0dy1D+I9zRNGbmM4WUhIjM8GrC5m5LzvMqnspqQv1dhGIJjhElFQFvw==",
+      "path": "radzen.blazor/3.0.6",
+      "hashPath": "radzen.blazor.3.0.6.nupkg.sha512"
+    },
     "System.Diagnostics.DiagnosticSource/4.5.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-zCno/m44ymWhgLFh7tELDG9587q0l/EynPM0m4KgLaWQbz/TEKvNRX2YT5ip2qXW/uayifQ2ZqbnErsKJ4lYrQ==",
       "path": "system.diagnostics.diagnosticsource/4.5.1",
       "hashPath": "system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I3IaeyTL7eXF1EmRe5K5qpFomnD0Fd8uLfv7SqBC9IniiM2xaUDMarjDsHT1Qbvv40irH0278RkzEu0ajHKh+w==",
+      "path": "system.linq.dynamic.core/1.2.2",
+      "hashPath": "system.linq.dynamic.core.1.2.2.nupkg.sha512"
     },
     "System.Memory/4.5.3": {
       "type": "package",
@@ -3055,7 +3106,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.CSharp/4.0.0.0": {
+    "Microsoft.CSharp.Reference/4.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WKLV6ea//Z+059JC83SjJZzTfwoqXLMcoISWcL72u8VbiIEzvOgrOS8izhHjwKc2Hs3POfQoDEA5kglum2SUCg==",
+  "dgSpecHash": "FJlmiM5063gaIVVNVqOK9Qm5WuV2gcxhApYQfEvz4pPKjufZoS0F+tqFW7ByJjgIKjbq0hmdM/zA2bQZqTReNQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\polcr\\source\\repos\\Ilya\\web\\gRPC_Chat\\polcraz-gprc-blazor-chat\\src\\Polcraz.gRPC_Chat\\Backend\\Polcraz.gRPC_Chat.Backend\\Polcraz.gRPC_Chat.Backend.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.httphandler\\3.2.0\\microsoft.aspnetcore.components.webassembly.httphandler.3.2.0.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\3.2.1\\microsoft.aspnetcore.components.webassembly.server.3.2.1.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.6\\microsoft.aspnetcore.metadata.3.1.6.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
@@ -41,7 +42,9 @@
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.jsinterop\\3.1.6\\microsoft.jsinterop.3.1.6.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.1\\microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\radzen.blazor\\3.0.6\\radzen.blazor.3.0.6.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\polcr\\.nuget\\packages\\system.linq.dynamic.core\\1.2.2\\system.linq.dynamic.core.1.2.2.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
     "C:\\Users\\polcr\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",

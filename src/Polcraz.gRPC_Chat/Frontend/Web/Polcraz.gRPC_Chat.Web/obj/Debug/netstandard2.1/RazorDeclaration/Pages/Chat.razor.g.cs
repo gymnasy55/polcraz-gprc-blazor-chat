@@ -76,14 +76,42 @@ using Polcraz.gRPC_Chat.Web.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\_Imports.razor"
+using Polcraz.gRPC_Chat.Web.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
-using Grpc.Core;
+using System.Threading;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
+using Grpc.Core;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
 using Polcraz.gRPC_Chat.Protos;
 
 #line default
@@ -98,14 +126,19 @@ using Polcraz.gRPC_Chat.Protos;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 15 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
+#line 23 "C:\Users\polcr\source\repos\Ilya\web\gRPC_Chat\polcraz-gprc-blazor-chat\src\Polcraz.gRPC_Chat\Frontend\Web\Polcraz.gRPC_Chat.Web\Pages\Chat.razor"
  
-    private List<string> _messages = new List<string>();
+    private readonly List<string> _messages = new List<string>();
+    private AsyncServerStreamingCall<HelloReply> _serverStream;
+
+    private readonly CancellationTokenSource _cancelTokenSource = new CancellationTokenSource();
 
     protected override async Task OnInitializedAsync()
     {
-        using var serverStream = GreeterClient.JoinChat(new HelloRequest());
-        var stream = serverStream.ResponseStream;
+        NavigationManager.LocationChanged += NavigationManagerOnLocationChanged;
+
+        _serverStream = GreeterClient.JoinChat(new HelloRequest(), cancellationToken: _cancelTokenSource.Token);
+        var stream = _serverStream.ResponseStream;
 
         await foreach (var message in stream.ReadAllAsync())
         {
@@ -114,10 +147,21 @@ using Polcraz.gRPC_Chat.Protos;
         }
     }
 
+    private void NavigationManagerOnLocationChanged(object sender, LocationChangedEventArgs e)
+    {
+        Dispose();
+    }
+
+    public void Dispose()
+    {
+        _cancelTokenSource.Cancel();
+    }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private Greeter.GreeterClient GreeterClient { get; set; }
     }
 }
